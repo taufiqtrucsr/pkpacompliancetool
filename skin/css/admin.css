@@ -1,0 +1,488 @@
+body {
+    background-color: #fff;
+}
+
+.right-side-bar-dashboard {
+    padding-top: 88px;
+    padding-left: 265px;
+}
+
+.form-control {
+    height: 30px;
+}
+
+.details a {
+    display: inline-block;
+    margin-bottom: 10px;
+    color: #1F7BE7;
+    text-decoration: underline;
+    font-size: 16px;
+    font-family: 'Roboto';
+    font-weight: 400;
+}
+
+.concludeBtn {
+    float: right;
+    position: relative;
+    top: 50px;
+    font-size: 16px;
+    padding: 10px 35px;
+}
+
+.names {
+    display: inline-block;
+}
+
+.details {
+    background: #FFFFFF;
+    border: 1px solid #C4C4C4;
+    border-radius: 10px;
+    padding: 15px 30px;
+}
+
+.details h2 {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 21px;
+    color: #000;
+    margin-bottom: 20px;
+}
+
+.details {
+    margin-top: 25px;
+}
+
+.details .row {
+    justify-content: space-between;
+    /* align-items: center; */
+    margin: 0;
+    margin-bottom: 15px;
+}
+
+.details .row h2 {
+    margin-bottom: 0px;
+}
+
+.general_details .names {
+    width: 100%;
+}
+
+.names ul {
+    padding: 0;
+    list-style: none;
+    margin-bottom: 0px;
+}
+
+.names ul li {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    text-align: left;
+    justify-content: space-between;
+    gap: 45px;
+
+}
+
+.names .nav-tabs .nav-item {
+    display: flex;
+}
+
+.names ul li span {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 16px;
+    color: #000000;
+    margin-bottom: 15px;
+    word-wrap: break-word;
+}
+
+.general_details .names .row {
+    margin: 0 -10px;
+}
+
+.names ul li span a {
+    margin-bottom: 0px;
+}
+
+.general_details .names p {
+    font-size: 16px;
+    color: #000;
+}
+
+.certi_ficates {
+    display: flex;
+    align-items: center;
+    border: 1px solid #C4C4C4;
+    border-radius: 10px;
+    margin-bottom: 25px;
+    position: relative;
+}
+
+.certi_ficates button.editbtn {
+    position: absolute;
+    right: 15px;
+    top: 10px;
+}
+
+img.alert_img {
+    display: none;
+}
+
+.date ul li {
+    display: inline-block;
+}
+
+li.dots {
+    margin: 0 5px;
+}
+
+h2.cert_name {
+    margin-top: 0;
+    margin-bottom: 8px !important;
+    font-size: 17px;
+    line-height: 20px;
+    font-weight: 500;
+}
+
+.general_details .names p.cert_number {
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+
+.date ul li {
+    display: inline-block;
+    color: #000;
+    font-size: 15px;
+}
+
+.cert_name img {
+    width: 15px !important;
+    margin-left: 5px;
+}
+
+.content_side {
+    padding: 10px 15px;
+}
+
+.img_side img {
+    width: 105px;
+}
+
+.details th {
+    text-align: center;
+}
+
+.bank_details .date ul li {
+    margin-right: 15px;
+}
+
+.bank_details .date {
+    border: 1px solid #C4C4C4;
+    border-radius: 5px;
+    padding: 15px 30px;
+}
+
+.bank_details .date a {
+    margin-bottom: 0px;
+}
+
+.proj_ects {
+    display: flex;
+    margin-top: 25px;
+    padding-bottom: 25px;
+}
+
+.proj_ects li {
+    width: 100%;
+    margin-right: 0 !important;
+    margin-bottom: 5px;
+    display: flex !important;
+
+}
+
+.proj_ects li span {
+    margin-left: 0px !important;
+    margin-bottom: 0px !important;
+}
+
+.project_name {
+    width: 225px;
+}
+
+.project_name p {
+    margin-bottom: 5px;
+}
+
+.activity_report .table td, .activity_report .table thead th {
+    border: none;
+}
+
+.activity_report table thead {
+    background: transparent;
+}
+
+.activity_report th {
+    text-align: center;
+    font-size: 16px;
+    color: #000;
+    font-weight: 500;
+}
+
+.activity_report .table td {
+    font-size: 16px;
+    color: #000;
+    height: auto;
+}
+
+.activity_report a {
+    margin-bottom: 0px;
+}
+
+.documents td {
+    text-align: center;
+    color: #000;
+}
+
+.admin_btns .btn {
+    background: #FFFFFF;
+    border: 1px solid #3366CC;
+    border-radius: 5px;
+    color: #3366CC;
+    font-size: 16px;
+    margin-right: 20px;
+    padding: 10px 20px;
+}
+
+.admin_btns .deactivateBtn {
+    color: #FF6666;
+    border-color: #FF6666;
+}
+
+.btn-primary.disabled, .btn-primary:disabled {
+    color: #fff;
+    background-color: #3366CC;
+    border-color: #3366CC;
+}
+
+.details.general_details.status {
+    background-color: #F7F7F7;
+}
+
+.status select {
+    background: #F7F7F7;
+    border: 1px solid #C4C4C4;
+    border-radius: 5px;
+    font-size: 16px;
+    height: 25px;
+    padding: 0 5px;
+    color: #000;
+    text-overflow: ellipsis;
+    width: 100%;
+    white-space: nowrap;
+}
+
+.admin_btns {
+    background: #F5F5F5;
+    border: 1px solid #C4C4C4;
+    padding: 25px 30px 10px;
+    margin-top: 25px;
+    display: inline-block;
+    width: 100%;
+}
+
+button.approvebtn, button.rejectbtn {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 19px;
+    color: #00C557;
+    border: none;
+    background: transparent;
+    margin-right: 15px;
+}
+
+button.rejectbtn {
+    color: #FF9933;
+}
+
+button.details-btn {
+    color: #FF9933;
+    text-decoration: underline;
+    font-family: 'Roboto';
+    font-style: normal;
+    border: none;
+    background: transparent;
+    font-size: 16px;
+}
+
+button.editbtn {
+    border: none;
+    background: transparent;
+}
+
+.checklist .names {
+    display: block;
+}
+
+.checklist .concludeBtn {
+    top: -45px;
+}
+
+.checklist img.check {
+    width: 17px;
+}
+
+.checklist .names ul li span {
+    margin-bottom: 0px;
+}
+
+.details_sec li.nav-item a {
+    font-size: 16px;
+    color: #3366CC !important;
+    font-weight: 500;
+    padding: 5px 30px;
+}
+
+.nav-tabs {
+    border-bottom: 0px;
+}
+
+li.nav-item.active a {
+    background: rgba(51, 102, 204, 0.15) !important;
+    border-bottom: 2px solid #3366CC !important;
+}
+
+#Basic {
+    padding: 0;
+}
+
+.bussiness_oper p {
+    font-size: 18px !important;
+    color: #000 !important;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.proj_ects_1 {
+    display: flex;
+    gap: 45px;
+    justify-content: space-around;
+}
+
+.bussiness_oper {
+    width: 45%;
+}
+
+.date_ li {
+    display: inline-block;
+    color: #000;
+    font-size: 15px;
+}
+
+.preference .bussiness_oper {
+    margin-bottom: 25px;
+    margin-top: 10px;
+}
+
+.general_details .names .table {
+    text-align: center;
+}
+
+.form-control {
+    text-align: center;
+}
+
+.table td {
+    padding: 10px;
+    color: #000;
+}
+
+th {
+    text-align: center;
+    border: 1px solid;
+}
+
+th.fy {
+    text-align: center;
+    background-color: rgba(51, 102, 204, 0.06);
+    border: 1px solid #5B5B5B;
+    color: #7D879C !important;
+}
+
+.memeber_name p {
+    margin-bottom: 0;
+}
+
+.memeber_name span {
+    color: #000;
+}
+
+.memeber_name {
+    margin-bottom: 20px;
+}
+
+.bill_add {
+    display: inline-block;
+    width: 100%;
+}
+
+.bill_add h2 {
+    margin-bottom: 15px !important;
+}
+
+input#search {
+    z-index: 9;
+    text-align: left;
+    background: #FFFFFF;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    border-radius: 0 5px 5px 0px;
+    border-left: 0;
+    height: 40px;
+}
+
+.profile_table .dropdown-toggle::after {
+    display: inline-block;
+    margin-left: 0.255em;
+    vertical-align: 0.255em;
+    content: "";
+    border-top: 0.3em solid;
+    border-right: 0.3em solid transparent;
+    border-bottom: 0;
+    border-left: 0.3em solid transparent;
+    position: absolute;
+    right: 15px;
+    margin-top: 8px;
+}
+
+.profile_table .dropdown-toggle {
+    background: #FFFFFF;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    border-radius: 5px 0px 0px 5px;
+    color: #000;
+    width: 120px;
+    text-align: left;
+    font-size: 14px;
+    position: relative;
+    border-right: 0;
+    height: 40px;
+    box-shadow: none;
+}
+
+.profile_table ul.dropdown-menu.show {
+    height: 175px;
+    overflow: auto;
+}
+
+.profile_table span.input-group-text {
+    background: #1F7BE7;
+    border-radius: 5px;
+    color: #fff;
+    margin-left: 15px;
+    padding: 8px 30px;
+    cursor: pointer;
+}
+
+.profile_table h2 {
+    margin-bottom: 50px;
+}

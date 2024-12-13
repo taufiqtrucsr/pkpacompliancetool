@@ -1,0 +1,230 @@
+a img {
+	border: 0;
+}
+table.sortable {
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	text-align: left;
+	font-size:11px;
+	background-color:#666666;
+	color:#FFFFFF;
+	border-spacing: 0;
+	border: 1px solid #000;
+	border-collapse: collapse;
+	
+}
+table.sortable th, table.sortable td {
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:11px;
+	padding: 2px 4px 2px 4px;
+	border-style: solid;
+	border-color: #FFFFFF;
+
+}
+table.sortable th {
+	border-width: 0px 1px 1px 1px;
+		
+}
+table.sortable td {
+	border-width: 0px 1px 0px 1px;
+}
+table.sortable tr.odd td {
+	
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:11px;
+	background-color:#FFFFFF;
+	color:#000000;
+}
+table.sortable tr.even td {
+
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:11px;
+	background-color:#ECECEC;
+	color:#000000;
+}
+table.sortable a.sortheader
+{
+    font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:11px;
+	color:white;
+	background-color:#666666;
+	text-decoration: none;
+}
+/*table.sortable span.sortarrow
+{
+	color: white;
+    text-decoration: none;
+}*/
+
+.b_txt{ font-family:Tahoma; font-size:11px; color:#0246D1; }
+.tableheading{
+font-family:Verdana, Arial, Helvetica, sans-serif;
+font-size:11px;
+font-weight:bold;
+background-color:#666666;
+color:#FFFFFF;
+}
+.altrow{
+font-family:Verdana, Arial, Helvetica, sans-serif;
+font-size:11px;
+background-color:#FFFFFF;
+color:#000000;
+}
+.row{
+font-family:Verdana, Arial, Helvetica, sans-serif;
+font-size:11px;
+background-color:#ECECEC;
+color:#000000;
+}
+.errorText
+{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:11px;
+	font-weight:bold;
+	text-decoration:none;
+	color:#FF0000;
+}
+.waiting
+{
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:11px;
+	text-decoration:none;
+	color:#C40098;
+}
+.tableheading2{
+font-family:Verdana, Arial, Helvetica, sans-serif;
+font-size:11px;
+font-weight:bold;
+background-color:#F6F6F6;
+color:#000000;
+}
+.RowColor
+{
+	background-color:#F9F9F9;
+}
+.AlternateRowColor
+{
+	background-color:#FFFFFF;
+/* background-image:url(../images/alternate_bg.gif);*/
+}
+.tableheading
+{
+	background-color:#666666;
+}
+.mainText
+{
+
+	font-family: Verdana, Arial, Tahoma; 
+	font-size:8pt;
+	color:#000000;
+}
+
+
+
+.img-list-admin  li {
+    float: left;
+    height: 120px;
+    list-style: outside none none;
+    margin: 5px;
+    padding: 5px;
+}
+.img-list-admin  .example-image {
+    display: inline-block;
+    height: 100%;
+    width: 100%;
+}
+.address-table td {
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+input[type="button"], input[type="submit"], input[type="reset"], input[type="file"]::-webkit-file-upload-button, button {
+    background-color: #333;
+    color: #fff;
+    padding: 7px 17px;
+    width: auto;
+    font-size: 11px;
+    border-radius: 4px;
+    text-transform: uppercase;
+	border: 1px solid #333;
+}
+input, textarea{
+    z-index: -3;
+    font-size: 11px;
+    border-radius: 5px;
+    padding: 8px 20px;
+    width: 200px;
+    border: 1px solid #888787;
+
+}
+select{
+    width: 242px;
+	 z-index: -3;
+    font-size: 11px;
+    border-radius: 5px;
+    padding: 8px 20px;
+	 border: 1px solid #888787;
+}
+textarea{
+height:100px;
+}
+input[type="radio"] {
+    width: auto;
+	vertical-align: text-bottom;
+}
+input[type=file] {
+    border: none;
+    background: transparent;
+	padding: 0;
+}
+.go-back-btn a {
+    background: #333;
+    color: #fff;
+    padding: 9px 10px;
+    border-radius: 5px;
+}
+
+#userAction .category-row td input.gp-category {
+    margin-bottom: 10px;
+    width: auto;
+}
+.CouponTable tr td:first-child {
+    width: 200px;
+}
+.CouponTable tr td table tr td {padding:0;}
+.CouponTable tr td table tr td:last-child {width: 250px;}
+.active-vendor-div {
+    float: left;
+    line-height: 20px;
+    margin-bottom: 10px;
+    width: 50%;
+}
+.active-vendor-div input {
+    float: left;
+    width: 8%;
+}
+
+.AutoCouponTable td {
+    width: 70px;
+}
+.sdg-block {
+    width: 49%;
+    margin-bottom: 25px;
+    display: inline-block;
+}
+
+.sdg-block .chk-box {
+    border: medium none;
+    box-shadow: none;
+    width: 10%;
+    padding: 0;
+    margin: 0;
+    height: 24px;
+    display: inline-block;
+}
+
+.sdg-block span {
+    float: right;
+    width: 90%;
+    padding-left: 10px;
+    padding-right: 20px;
+}
+

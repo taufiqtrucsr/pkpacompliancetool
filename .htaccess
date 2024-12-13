@@ -1,0 +1,24 @@
+RewriteEngine On
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.*)$ index.php/$1 [L]
+
+Options -Indexes
+
+# RewriteCond %{HTTP_REFERER} !^http://localhost/public/uploads/ [NC]
+# RewriteCond %{REQUEST_URI} !^/(skin/.*)$ [NC]
+# RewriteRule \.(gif|jpg|jpeg|png|mp4|mov|mkv|flv|pdf)$ - [F,L,NC]
+
+<IfModule mod_env.c>
+    #Set Environment(development,testing,production)
+    SetEnv CI_ENV development
+</IfModule>
+<IfModule mod_rewrite.c>
+    #if mod_env module not enabled in server
+    #Set Environment(development,testing,production)
+    RewriteRule ^ - [E=CI_ENV:development]
+</IfModule>
+
+<FilesMatch "\.(save|swp)$">
+    Require all denied
+</FilesMatch>

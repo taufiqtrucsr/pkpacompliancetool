@@ -1,0 +1,64 @@
+.DS_Store
+
+application/cache/*
+!application/cache/index.html
+!application/cache/.htaccess
+
+.well-known/*
+application/admin/cache/*
+
+application/config/env.php
+application/admin/logs/*
+
+#all database config has ignored here
+secrets.php
+monthly_report.php
+weekly_report.php
+application/config/secrets.php
+application/admin/config/secrets.php
+application/logs/*
+!application/logs/index.html
+!application/logs/.htaccess
+
+public/*
+logs/*
+
+cron/*
+
+#commenting entir wordpress project
+resources/*
+api/*
+
+payslip.pdf
+phpinfo.php
+package-lock.json
+
+user_guide_src/build/*
+user_guide_src/cilexer/build/*
+user_guide_src/cilexer/dist/*
+user_guide_src/cilexer/pycilexer.egg-info/*
+
+index_1.php
+index_2.php
+
+
+# IDE Files
+#-------------------------
+/nbproject/
+.idea/*
+
+## Sublime Text cache files
+*.tmlanguage.cache
+*.tmPreferences.cache
+*.stTheme.cache
+*.sublime-workspace
+*.sublime-project
+
+
+#comment added 
+
+
+
+
+
+

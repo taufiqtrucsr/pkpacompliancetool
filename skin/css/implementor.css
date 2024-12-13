@@ -1,0 +1,744 @@
+body{
+    
+}
+input#entityLogo {
+    position: absolute;
+    height: 90px;
+    width: 90px;
+    border: none;
+    opacity: 0;
+    cursor: pointer;
+    top: 0;
+}
+label.control-label {
+    font-family: 'Averta-Semibold'!important;
+}
+.organisation-main-steps .stepwizard-step a {
+    font-family: 'AvertaPE-Regular';
+    font-size: 14px!important;
+}
+.registration-flow-setup .form-control, .form-divide .form-control{
+    padding: 10px 8px;
+}
+p.main_title {
+    font-size: 25px;
+    font-family: 'Averta-Semibold';
+    color: #7082A9;
+    margin-bottom: 15px;
+}
+.imp-reg2-btn {
+    position: absolute;
+    margin: 0!important;
+    opacity: 0;
+    top: 5px;
+}
+.imp_exp{
+    display:flex;
+    justify-content: space-between;
+    width: 360px;
+    padding: 0 15px;
+}
+.label-title {
+    padding: 0 10px;
+}
+select.form-control {
+    padding: 10px 8px!important;
+    height: auto!important;
+}
+.registration-flow-setup, .form-divide{
+    padding:50px;
+}
+img.delete{
+    font-family: 'Roboto';
+    float: right;
+    font-weight: 600;
+    position: absolute;
+    right: 0;
+
+}
+a.delete {
+    font-family: 'Roboto';
+    position: relative;
+    float: right;
+    font-weight: 600;
+}
+.step-3-note, .step-3-label {
+    margin-bottom: 15px;
+    font-family: 'AvertaPE-Regular'!important;
+    width: auto;
+}
+.step-3-note {
+    width: auto;
+    font-size: 12px;
+    text-align: left;
+}
+.step-3 label.control-label {
+    color: #000;
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+.upload {
+    position: absolute;
+    width: 180px;
+    top: auto!important;
+    opacity: 0;
+    
+}
+#wrap_distdist {
+    margin-left: 0;
+}
+.registration-flow-setup .form-group, .form-divide .form-group{
+    margin-bottom: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.add-more-btn-sec {
+    margin-bottom: 10px;
+    display: inline-block;
+}
+.form-group.upload-doc label {
+    opacity: 0;
+    width: 100%;
+}
+.form-check.form-check-inline {
+    display: inline-flex;
+    align-items: flex-end;
+}
+.form-check.form-check-inline input.form-control {
+    width: auto;
+}
+label.form-check-label {
+    margin: 0 5px;
+    font-family: 'Averta-Semibold'!important;
+    text-transform: capitalize;
+}
+.not-expire {
+    margin-top: 25px;
+}
+.financial-report-reciept a {
+    background: rgba(255, 102, 102, 0.4);
+    text-align: center;
+    font-family: 'Averta-Semibold';
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: #7D879C;
+    display: block;
+    left: 40px;
+    position: relative;
+    width: 290px;
+}
+.financial-report-expenditure a {
+    background: rgba(255, 153, 51, 0.4);
+    text-align: center;
+    font-family: 'Averta-Semibold';
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: #7D879C;
+    display: block;
+    left: 23px;
+    position: relative;
+    width: 290px;
+}
+.form-group.report-sec{
+    margin-bottom: 0px;
+}
+span.total_reciept {
+    width: max-content;
+    display: block;
+    margin: 0 auto;
+}
+.table-bordered input.form-control {
+    margin: 0;
+    padding: 5px 5px;
+    text-align: center;
+}
+td{
+    vertical-align: middle!important;
+    position: relative;
+}
+.table>thead>tr>th {
+    vertical-align: top;
+    text-align: center;
+    background-color: rgba(51, 102, 204, 0.06);
+    font-weight: 600;
+    font-family: 'inter';
+    font-size: 13px;
+}
+td.upload-report img {
+    width: 100%;
+    position: absolute;
+    height: 100%;
+    top: 0;
+    left: 0;
+    padding: 15px;
+}
+td.upload-report input {
+    width: 100%!important;
+    opacity: 0;
+    position: relative;
+    z-index: 999;
+}
+.upload.stp-cheq {
+    width: 230px;
+    position: relative;
+}
+.organisation-main-steps .stepwizard-step span.step-count img {
+    width: 15px;
+    margin: 0 auto;
+    margin-top: 13px;
+}
+.cancelBtn,.saveBtn{
+    font-family: 'AvertaPE-Regular';
+    font-size: 14px;
+}
+#cheque-error{
+    position: absolute;
+    bottom: -22px;
+}
+/* Entity Type */
+
+#entity-choose-sec {
+    margin-top: 50px;
+}
+#entity-step-form ._heading {
+    margin-bottom: 15px;
+}
+.form-control::placeholder{
+    color: #c4c4c4!important;;
+}
+.select-box select, .registration-flow-setup .select-box select,
+.form-control{
+    font-family: 'AvertaPE-Regular';
+}
+.form-divide.board-dir-sec {
+    padding: 50px 0;
+    width: 100%;
+}
+.form-divide.board-dir-sec {
+    padding: 35px 0 0 0;
+    width: 100%;
+    margin-top: 35px;
+    display: inline-block!important;
+}
+
+.form-divide.board-dir-sec img {
+    height: 35px;
+}
+.wrap_flex_btn{
+    margin-top: 50px;;
+}
+#gst {
+    width: 220px;
+}
+.upload.reg-certi {
+    width: 265px;
+}
+.upload.trust-deed {
+    width: 220px;
+}
+a.btn.addmore {
+    font-family: 'AvertaPE-Regular';
+}
+/* User_type */
+
+h2.main-head {
+    font-family: 'Averta-Semibold';
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+.card-input p {
+    font-family: 'AvertaPE-Regular';
+    font-size: 13px;
+    line-height: 15px;
+}
+.card-input{
+    margin:0px;
+}
+.submit_user {
+    font-family: 'AvertaPE-Regular'!important;
+    text-transform: capitalize;
+    font-size: 16px;
+    letter-spacing: .5px;
+    font-weight: normal;
+}
+.custom_file_box img {
+    margin: 0 auto;
+}
+.custom_file_box{
+    padding:0px;
+}
+.custom_file_box p {
+    font-family: AvertaPE-Regular;
+    color: #C4C4C4;
+    text-align: center;
+}
+.registration-flow-setup textarea.form-control {
+    color: #C4C4C4;
+    padding: 10px;
+}
+.billing_address_flex h3{
+    font-family: 'Averta-Semibold';
+}
+.billing_address_flex .addr label{
+    font-family: 'AvertaPE-Regular'!important;
+}
+.billing_address_flex input[type="checkbox"] {
+    width: 15px;
+    height: 15px;
+}
+.form-group.billing_address_flex {
+    margin-bottom: 20px!important;
+    margin-top: 10px;
+}
+.select-box{
+    margin-bottom: 10px;
+}
+.add_proof {
+    border: 1px solid #3366CC!important;
+    border-radius: 5px!important;
+    text-align: center;
+    color: #3366CB!important;
+}
+.select-box select.add_proof {
+    background: #fff url(../images/arrow_blue.png) no-repeat!important;
+    background-position: 98% !important;
+    background-size: 23px !important;
+    text-align: left;
+    padding-left: 15px !important;
+}
+label.form-check-label {
+    float: none;
+    position: relative;
+    top: 2px;
+}
+.form-check {
+    margin-right: 10px;
+}
+.area_of_buisness_state select.form-control {
+    padding: 6px!important;
+    border: 1px solid #C4C4C4!important;
+    font-size: 13px;
+    height: 31px!important;
+}
+.area_of_buisness_state {
+    margin-top: 10px;
+}
+.form-group.preference {
+    margin-bottom: 0!important;
+    margin-top: 10px;
+}
+.registration-box,.input-certificate-box{
+    display: none;
+}
+.area_of_buisness_state button {
+    color: #333;
+    padding: 6px!important;
+    border: 1px solid #C4C4C4!important;
+    font-size: 13px;
+    font-family: 'AvertaPE-Regular';
+    margin-top: 8px!important;
+}
+.area_of_buisness_state button::after{
+    top: 10px !important;
+}
+.ms-options-wrap > .ms-options > ul input[type="checkbox"] {
+    top: 3px!important;
+}
+.sector-img-sec.gallery,
+.sector-img-sec-sdgs.gallery {
+    display: inline-block;
+    margin: 3px;
+    color:red;
+}
+.sector-img-sec-sdgs img.active{
+    border: 3px solid blue;
+}
+.sdgs_devlo {
+    margin-top: 30px;
+    margin-bottom: 30px!important;
+}
+a.preview {
+    display: none;
+    font-style: normal;
+    color: #7082A9;
+    margin-bottom: 10px;
+    text-transform: capitalize;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 16px;
+    font-family: 'AvertaPE-Regular';
+    margin-top: 8px;
+    letter-spacing: .5px;
+}
+.indi_vidual {
+    display: flex;
+    width: 80%;
+}
+.saveBtn{
+    padding:0 10px;
+}
+.card-input.voluntr {
+    margin-top: 30px;
+    display: block;
+}
+._indvidual {
+    width: 100%;
+    display: flex;
+}
+._nonindvidual {
+    width: 100%;
+    display: flex;
+}
+img.remove-btn {
+    position: absolute;
+    right: -35px;
+    top: 30px;
+    cursor: pointer;
+}
+/* KYC Dashborad */
+
+.create-project-list li{
+    margin-bottom: 0px;
+}
+.create-project-list li a,
+.create-project-list li:hover a, 
+.create-project-list li.active a{
+    background-image: none!important;
+}
+.subscription {
+    text-align: left;
+    font-family: AvertaPE-Regular;
+    color: #000;
+    font-size: 14px;
+    margin-top: 20px;
+}
+.col-sm-9.right-side-bar-dashboard.grey-create-project ul.nav.nav-tabs {
+    margin-top: 35px;
+}
+.build_profile {
+    display: inline-block;
+    width: 100%;
+    border: 1px solid #C4C4C4;
+    margin-top: 20px;
+    padding: 15px;
+    text-align: left;
+}
+.build_profile h3 {
+    font-family: 'Averta-Semibold';
+    color: #000;
+    font-size: 17px;
+    margin-bottom: 10px;
+}
+.build_profile p {
+    font-family: 'AvertaPE-Regular';
+    color: #000;
+    font-size: 13px;
+    margin-bottom: 10px;
+    display: block;
+}
+.imp-exp {
+    margin-top: 20px;
+}
+.progressText {
+    display: inline-flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+.progressText p{
+   margin-bottom: 0px;
+}
+.barWrapper {
+    display: inline-block;
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.tooltip{ 
+    position:relative;
+    float:right;
+    color: rgb(23,44,66);
+    font-weight: bold;
+    font-size: 13px;
+    border: 2px solid rgba(255, 153, 51, 0.7);
+    background: #fff;
+    max-width: 34px;
+    height: 34px;
+    border-radius: 50px;
+    background-image: url(../images/checktool.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  
+  .tooltip > .tooltip-inner {
+    color: rgb(23,44,66);
+    font-weight: bold;
+    font-size: 13px;
+    border: 2px solid rgba(255, 153, 51, 0.7);
+    background: #fff;
+    max-width: 34px;
+    height: 34px;
+    border-radius: 50px;
+    opacity: 0;
+}
+.tooltip.in {
+    opacity: 1;
+    top: -9px!important;
+    left: 15px!important;
+}
+.build_profile .dash h3 {
+    font-size: 14px;
+}
+.upload_project {
+    position: relative;
+    margin-top: 25px;
+    padding: 0 15px;
+}
+.upload_project .col-sm-3{
+    padding: 0px;
+}
+.upload_project .row {
+    display: flex;
+    justify-content: center;
+    margin: 0;
+}
+.upload_project img {
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    cursor: pointer;
+}
+.upload-1 {
+    height: 100%;
+    width: 100%;
+    z-index: 999;
+    position: relative;
+    margin-bottom: 15px;
+    opacity: 0;
+    cursor: pointer;
+}
+.dash {
+    border: 1px solid #C4C4C4;
+    padding: 15px;
+    min-height:  140px;
+    position: relative;
+}
+.dash a {
+    border: 1px solid #3366CC;
+    color: #3366CC;
+    font-family: 'AvertaPE-Regular';
+    font-size: 13px;
+    padding: 7px 20px;
+    display: inline-block;
+    border-radius: 3px;
+    margin-top: 5px;
+    position: absolute;
+    bottom: 15px;
+}
+
+  .popOver + .tooltip > .tooltip-arrow 
+  {border-left: 5px solid transparent; border-right: 5px solid transparent; border-top: 5px solid #eebf3f; display: none;}
+  
+  section{
+    margin:100px auto; 
+  }
+  .progress{
+    border-radius:0;
+    overflow:visible;
+    height: 20px;
+  }
+  .progress-bar{
+     background:linear-gradient(90deg, rgba(51, 102, 204, 0.5) 0%, rgba(0, 197, 87, 0.5) 100%);
+    -webkit-transition: width 1.5s ease-in-out;
+    transition: width 1.5s ease-in-out;
+  }
+ 
+.ins-proj:nth-child(5) {
+    margin-right: 0!important;
+}
+.insight{
+    text-align: left;
+}
+.insight .row{
+    margin: 0;
+}
+.ins-proj {
+    border: 1px solid #C4C4C4;
+    border-radius: 10px;
+    width: 170px;
+    height: 130px;
+    margin-right: 38px;
+    margin-bottom: 25px;
+    text-align: center;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 40px 0;
+}
+.ins-proj h2 {
+    font-size: 30px;
+    font-family: 'Averta-Semibold';
+    color: #000;
+    width: 100%;
+    margin-bottom: 15px;
+}
+.ins-proj p {
+    font-family: 'AvertaPE-Regular';
+    color: #000;
+    font-size: 15px;
+}
+.insight h3 {
+    font-size: 22px;
+    color: #000;
+    font-family: 'AvertaPE-Regular';
+    margin-bottom: 20px;
+}
+.col-sm-9.right-side-bar-dashboard.grey-create-project {
+    padding-left: 4%;
+    padding-right: 4%;
+}
+.ms-options-wrap > .ms-options > ul label{
+    color: #000;
+}
+#trust_deed_doc-error,#incop_doc-error,#pan_file-error,#reg_12a_file-error,#eighty_g_file-error,
+#ac_document_file-error,
+#fcra_file-error,
+#csr_file-error,
+#ngo_darpan_doc-error,
+#gst_file-error,
+#add_Cert_file0-error,
+#add_Cert_file1-error,
+#add_Cert_file2-error{
+    opacity: 1;
+    position: absolute;
+    bottom: -20px;
+}
+.fromAY,.twelveAY,.fcra_visible{
+    display: none;
+}
+.ngodarpanVisible,.gst_visible{
+    display: none;
+}
+label.doesnotexpire{
+    font-size: 14px;
+    top:0px;
+}
+.hiddenLabel{
+    opacity: 0;
+}
+._uploadReportOuter input[type=file]{
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+.finalanicalReportTable{
+    text-align: center;
+}
+._uploadReportOuter ._uploadReport{
+    text-align: center;
+    color: #3366CC;
+    cursor: pointer;
+}
+.activity-report .imgIcon{
+    filter: brightness(0) saturate(100%) invert(58%) sepia(3%) saturate(4535%) hue-rotate(183deg) brightness(87%) contrast(83%);
+    position: relative;
+    top: 3px;
+}
+.activity-report div i{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 15px;
+} 
+.outertable tr td {
+    background: transparent;
+    border: none;
+}
+.outertable tr td.receipts {
+    background: rgba(255, 102, 102, 0.4);
+}
+.outertable tr td.expenditure {
+    background: rgba(255, 153, 51, 0.4);
+}
+.outertable tr td.experience {
+    background: #7D879C;
+    color: #fff;
+    padding:.32rem;
+    letter-spacing: 0.02em;
+    font-weight: 400;
+    font-family: 'AvertaPE-Regular';
+}
+table.finalanicalReportTable tr th, table.finalanicalReportTable tr td{
+    align-items: center;
+    vertical-align: middle;
+    text-align: center;
+}
+.onboardingFinancialReport .table{
+    margin-bottom: 0!important;
+}
+.outertable td, .outertable th{
+    border-top: none!important;
+    text-align: center;
+    font-family: "Averta-Semibold";
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: #7D879C;
+}
+table.finalanicalReportTable tr td label.error{
+    position: absolute;
+    font-size: 10px !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    left: 0;
+    bottom: 3px;
+}
+table.finalanicalReportTable tr td{
+    position: relative;
+    padding-bottom: 20px;
+}
+.board-member-table table tr td{
+    padding-bottom: 30px;
+    position: relative;
+}
+.board-member-table table tr td label.error{
+    position: absolute;
+}
+.ms-options-wrap > .ms-options > .ms-selectall.global{
+    font-size: 13px;
+    color: #000;
+    text-transform: capitalize;
+    font-weight: 500;
+}
+/* when edit basic entity */
+._addmore-state .row{
+    margin-left: 0 !important; 
+}
+.full-width-footer 
+{
+    background: #fff;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 135px;
+}
+.full-width-footer .wrap_flex_btn{
+    gap: 15px;
+}
+.edit-ngo-page{
+    padding-bottom: 135px;
+}
+@media(min-width:1300px){
+   ._nonindvidual {
+    width: 100%;
+    max-width: 1300px;
+} 
+}
+@media(min-width:992px){
+    ._indvidual {
+        width: 100%;
+        max-width: 992px;
+    }
+}

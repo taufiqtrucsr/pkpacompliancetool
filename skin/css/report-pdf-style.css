@@ -1,0 +1,189 @@
+#main-div-par {
+    background-color: #f5f7fa;
+    padding: 30px 20px;
+}
+.table-responsive {
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+}
+.tab-88 * {
+    border: 1px solid #000 !important;
+}
+.table>tbody {
+    vertical-align: inherit;
+}h5.sec-sec-h-start {
+    padding-bottom: 25px;
+}
+.table {
+    width: 100%;
+    max-width: 100%;
+    margin-bottom: 20px;
+}.note-h {
+    margin-top: -10px;
+}p.note-p1.ss {
+    margin-top: -3px;
+}.btn-wrap.filled-btn {
+    margin-left: 45px;
+}
+.table-bordered {
+    border: 1px solid #ddd;
+}
+td.td-li.td-bg {
+    background-color: #f3f6fc;
+}
+.tab-88 thead {
+    vertical-align: middle;
+    text-align: center;
+    font-size: 14px;
+    font-weight: normal;
+    background-color: #f3f6fc;
+    color: #737c90;
+}h5.gap-h {
+    margin-bottom: 0px;
+}h5.sec-sec-h-start.bold-h5-cis {
+    font-weight: 600;
+}
+.web-a{
+    text-decoration: underline !important;
+}h5.man-h5 {
+    font-size: 18px;
+}
+.tab-88 * {
+    border: 1px solid #000 !important;
+}
+.table>thead>tr>th {
+    vertical-align: bottom;
+}
+
+/*table css finish*/
+
+h3.report-start-title {
+    text-align: center;
+    color: #7d879c;
+}
+.sec-one-par {
+    background-color: #fff;
+    padding: 40px 40px 15px 40px;
+}
+.sec-one-par p {
+    font-size: 15px;
+    line-height: 25px;
+}
+.sec-one-par a {
+    color: #000;
+    text-decoration: none;
+    padding: 20px 0px;
+    display: inline-block;
+}
+.dom h5 {
+    font-weight: 600;
+}
+.dom p {
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+.dom {
+    margin: 20px 0px;
+}
+.memeber-price-list h6 {
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 24px;
+}
+.table-par h5 {
+    font-weight: 600;
+    padding: 20px 0px 10px;
+}
+.note-h p {
+    font-size: 14px;
+    line-height: 20px;
+}
+.note-h h5 {
+    line-height: 18px;
+}
+.table-two-report {
+    width: 60%;
+}
+
+/*ss two*/
+
+.ss-two {
+    margin-top: 20px;
+    padding-bottom: 40px !important;
+}
+h5.sec-sec-h-start {
+    font-size: 22px;
+    font-weight: 500;
+}
+p.case-p {
+    font-size: 16px;
+    font-weight: 500;
+    padding: 20px 0px;
+}
+.content-cp h6 {
+    font-size: 16px;
+    font-weight: 600;
+}
+.content-cp p {
+    font-size: 14px;
+    line-height: 24px;
+    padding-left: 20px;
+    padding-bottom: 10px;
+}
+img.img-cont {
+    padding-right: 14px;
+}
+
+/*s three*/
+.sec-one-par.ss-three {
+    margin-top: 20px;
+}.testipar-div {
+    padding-top: 15px;
+}.testipar-div .col-lg-10 {
+    margin-left: -30px;
+}.testipar-div h6 {
+    font-size: 15px;
+}
+.testipar-div p {
+    font-size: 13px;
+    line-height: 21px;
+}
+.sec-one-par.ss-three {
+    margin-top: 20px;
+    padding-bottom: 40px;
+}
+/*button css*/
+
+.d-flex {
+    display: flex!important;
+    margin-top: 10px;
+}
+.justify-content-center {
+    justify-content: center!important;
+}
+.end-form {
+    gap: 20px;
+}.end-form .btn-wrap a, .end-form .btn-wrap button {
+    background-color: transparent;
+    text-decoration: none;
+    color: #3366cc;
+    height: 52px;
+    border: 2px solid #3366cc;
+    display: block;
+    border-radius: 3px;
+    text-align: center;
+    line-height: 52px;
+    font-weight: 600;
+    margin-bottom: 25px;
+    min-width: 300px;
+}.end-form .filled-btn a, .end-form .filled-btn button {
+    background-color: #3366cc;
+    text-decoration: none;
+    color: #fff;
+}a.back-a {
+    border: 1px solid #666666 !important;
+    color: #666 !important;
+}
+.but-divs-par {
+    padding-top: 25px;
+}

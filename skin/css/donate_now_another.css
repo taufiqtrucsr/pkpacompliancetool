@@ -1,0 +1,31 @@
+.modal-center class for modularity
+.modal-open .modal.modal-center {
+    display: flex!important;
+    align-items: center!important;  
+}
+.modal-dialog {
+    flex-grow: 10;
+}
+hr{
+    margin: 5px;
+}
+
+.main_form{
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.current {
+    background-color: #007bff;
+    color: white;
+}
+.amt_btn{
+    padding:0px;
+}
+
+.amt_btn:focus {
+    outline: none;
+    box-shadow: none !important;
+    }
+
+/* Button css start here */

@@ -1,0 +1,178 @@
+.d-flex {
+    display: flex!important;
+    margin-top: 10px;
+}
+.justify-content-center {
+    justify-content: center!important;
+}
+.end-form {
+    gap: 20px;
+}.end-form .btn-wrap a, .end-form .btn-wrap button {
+    background-color: transparent;
+    text-decoration: none;
+    color: #3366cc;
+    height: 42px;
+    border: 2px solid #3366cc;
+    display: block;
+    border-radius: 3px;
+    text-align: center;
+    line-height: 39px;
+    font-weight: 600;
+    margin-bottom: 25px;
+    min-width: 150px;
+}.end-form .filled-btn a, .end-form .filled-btn button {
+    background-color: #3366cc;
+    text-decoration: none;
+    color: #fff;
+}
+section#bank-whitebox-par {
+    background-color: #f5f7fa;
+    padding: 100px 0px;
+}
+.content-par {
+    background-color: #fff;
+    width: 70%;
+    margin: 0 auto;
+    padding: 40px 80px;
+}
+.content-par h5 {
+    font-weight: 600;
+}.content-par p {
+    line-height: 21px;
+}
+/*accordion*/
+/* */
+.panel-group {
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+.panel-default>.panel-heading {
+    color: #333;
+    background-color: #fff;
+    border-color: #e4e5e7;
+    padding: 0;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+  
+  .panel-default>.panel-heading a {
+    display: block;
+  }
+  
+  .panel-default>.panel-heading a:after {
+    content: "";
+    position: relative;
+    top: 1px;
+    display: inline-block;
+    font-family: 'Glyphicons Halflings';
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    float: right;
+    transition: transform .25s linear;
+    -webkit-transition: -webkit-transform .25s linear;
+  }
+  
+  .panel-default>.panel-heading a[aria-expanded="true"] {
+    background-color: #eee;
+  }
+  
+  .panel-default>.panel-heading a[aria-expanded="true"]:after {
+    content: "";
+}
+  
+  .panel-default>.panel-heading a[aria-expanded="false"]:after {
+    content:"";
+    background-image: url("../images/down-arrow.png");
+    -webkit-transform: rotate(90deg);
+    transform: rotate(90deg);
+  }
+  
+  img.acco-icon-img.oimg {
+    margin-right: 23px;
+}
+
+  .oimg {
+    width: 20px;
+}img.acco-icon-img {
+    margin-right: 26px;
+}h4.panel-title.icon-par-div {
+    position: relative;
+}.oimg {
+    width: 20px;
+    position: absolute;
+    right: 20px;
+    top: 17px;
+}.col-lg-2.panel-col {
+    padding: 0px;
+    width: 15%;
+}h4.plus-text {
+    color: #3366cc;
+    opacity: 0.5;
+    font-size: 15px;
+}h4.plus-text i {
+    display: inline-block;
+    margin-right: 3px;
+}.content-par.content-par1 {
+    margin-top: 20px;
+}.form-select {
+    display: block;
+    width: 100%;
+    height: 34px;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #000;
+    background-color: #f7f7f7;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    -webkit-transition: border-color ease-in-out .15s,-webkit-box-shadow ease-in-out .15s;
+    -o-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+}
+.form-control {
+    display: block;
+    width: 100%;
+    height: 34px;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #000;
+    background-color: #f7f7f7;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    -webkit-transition: border-color ease-in-out .15s,-webkit-box-shadow ease-in-out .15s;
+    -o-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+}
+button.email-bottom-btn {
+    border: 1px solid #1f7be7;
+    color: #1f7be7;
+    background-color: transparent;
+    padding: 10px 20px;
+    font-weight: 700;
+    border-radius: 10px;
+}.btn-wrap.filled-btn.ad-bank-email-btn-form-btn a {
+    background-color: #3366cc;
+    color: #fff;
+    padding: 10px 30px;
+    margin: 0 auto;
+    text-align: center;
+    margin: 0 auto;
+}.btn-wrap.filled-btn.ad-bank-email-btn-form-btn {
+    text-align: center;
+}img.acco-down-img.oimg {
+    right: 43px;
+}.acco-down-img{
+    display: none;
+}

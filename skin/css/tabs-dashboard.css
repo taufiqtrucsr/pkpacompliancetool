@@ -1,0 +1,214 @@
+a:hover{
+    text-decoration: none;
+}
+.tabs-parent{
+    padding: 2rem;
+}
+.tabs-wrap ul li{
+    margin-right: 50px;
+}
+.tabs-wrap ul li button{
+    min-width: 150px;
+    color: #6a819c;
+    border:none;
+    border-bottom: 4px solid transparent;
+    border-radius: 0px!important;
+    padding: 15px ;
+    outline: 0px;
+}
+.tabs-wrap ul li button.active,
+.tabs-wrap ul li button.active:focus,
+.tabs-wrap ul li button.active:focus-within{
+    border:none;
+    outline: 0px;
+    color:#6a819c!important;
+    background-color: #eef1f6!important;
+    border-bottom: 4px solid #3366cc;
+}
+.tab-pane {
+    border: 1.5px solid #c4c4c4;
+    padding: 1rem 0.7rem;
+    border-radius: 0.2rem;
+    padding-right: 2rem;
+}
+.ft-400{
+    font-weight: 400;
+}
+.skill-main {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  .skill-main .skill-wrrap {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  .skill-main .skill-wrrap .skill-name {
+    /* color: #ffffff; */
+    font-size: 15px;
+    font-weight: 400;
+}
+  .skill-main .skill-wrrap .skill-bar {
+    height: 20px;
+    background:#d8d8d8;
+  }
+  .skill-main .skill-wrrap .skill-per {
+    height: 20px;
+    background: linear-gradient(90deg, rgba(133,158,209,1) 0%, rgba(119,184,177,1) 50%, rgba(108,204,153,1) 100%);
+    width: 0;
+    transition: 1s linear;
+    position: relative;
+  }
+  .skill-main .skill-wrrap .skill-per:before {
+    content: '';
+    position: absolute;
+    width: 38px;
+    height: 37px;
+    background-image: url('../check.png');
+    background-size: contain;
+    border-radius: 4px;
+    top: -10px;
+    right: -7px;
+    background-repeat: no-repeat;
+}
+.progress-custom{
+    padding-left: 2rem;
+    margin-bottom: 15px;
+}
+.all-theme-btn {
+    box-shadow: none;
+    text-decoration: none;
+    display: inline-block;
+    min-width: 150px;
+    padding: 0.5rem;
+    border-radius: 0.2rem;
+    border: 1.5px solid #3366cc;
+    color: #3366cc;
+    background-color: transparent;
+    text-align: center;
+}
+.card-bbody{
+    border: 1.5px solid #c4c4c4;
+    padding: 1rem 0.7rem;
+    border-radius: 0.2rem;
+    max-width: 30%;
+}
+.cards-wrap{
+    gap: 22px;
+    flex-wrap: wrap;
+}
+    /*  */
+.page-title-wrap{
+    padding: 2rem;
+    padding-bottom: 0rem;
+}
+.page-title-wrap{
+    position: relative;
+}
+.What-new{
+    position: absolute;
+    right: 0;
+    top: 0;
+    right: 2rem;
+    top: 2rem;
+    z-index: 1;
+}
+.What-new i{
+    color:orange;
+}
+.What-new a{
+    color: #000;
+    text-decoration: underline;
+}
+.show#exampleModal{
+    display: flex!important;
+    align-items: center;
+}
+.modal-content-no-bg{
+    background-color: transparent;
+    border:transparent;
+}
+.modal-content {
+    -webkit-box-shadow: 0 5px 15px rgba(0,0,0,.5);
+    box-shadow: unset!important;
+    background: unset!important;
+}
+
+.left-side-bar-dashboard {
+    padding: 0;
+    background: #fff;
+    min-height: 500px;
+    border-right: 1px solid #ced0dd;
+    z-index: 10000!important;
+    height: 100%!important;
+}
+
+section{
+    margin: 0px auto!important;
+}
+
+.top-header {
+    padding: 10px 2%;
+    position: relative;
+    z-index: 10000!important;
+}
+
+.popup-text{
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 30px;
+    letter-spacing: 0px;
+    text-align: center;
+    color:#fff;
+}
+.btn-pay{
+    width: 199px;
+    height: 45px;
+    border-radius: 3px;
+    border: 1px solid #3366CC;
+    background-color: #fff;
+    display: inline-block;
+    margin: 0 auto;
+    font-Weight:400;
+    font-size:14px
+}
+div#box-par {
+    display: flex;
+    /* justify-content: space-around; */
+    flex-wrap: wrap;
+}
+div#box-par .box {
+    border: 1px solid #C4C4C4;
+    border-radius: 10px;
+    text-align: center;
+    flex-basis: 15%;
+    margin: 10px 21px 20px 0px;
+}
+div#box-par  .box h5 {
+    margin-bottom: 0px;
+    font-size: 33px;
+    font-weight: 400;
+    margin-top: 25px;
+}
+div#box-par  .box p {
+    margin-top: 3px;
+}
+.in-hh{
+    font-weight: normal;
+}
+
+.upload_media_testimonial .btn-theme-55 {
+    min-width: 220px !important;
+    height: 60px !important;
+    /* border: 1.5px solid transparent !important; */
+    border-radius: 5px !important;
+    background-color: transparent !important;
+    text-align: center !important;
+}
+.upload_media_testimonial .fill-btn {
+    background-color: #3366cc !important;
+    border-color: #3366cc;
+    color: #fff;
+}

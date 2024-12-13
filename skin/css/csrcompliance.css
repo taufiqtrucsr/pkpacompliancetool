@@ -1,0 +1,1160 @@
+.report-box-table table{
+    width:100%;
+}
+.report-generation{
+    background: #3366CC!important;
+    color:white!important;
+    padding: 10px 10px!important;
+}
+.mt-15{
+    margin-top: 15px;
+}
+.mt-50{
+    margin-top: 50px;
+}
+.mr-40{
+    margin-right: 40px;
+}
+.mb-100{
+        margin-bottom: 100px;
+}
+.preview-computation{
+    margin-top: 10px;
+    width: 93px;
+    padding: 3px;
+}
+.table-delete-icon img{
+    height: 20px!important;
+    margin-bottom: 0px!important;
+}
+.report-box-table thead{
+    background: #fcfcfc;
+}
+.report-box-table thead th{
+    color: #aeb4c3;
+}
+.p-theme-title{
+    color: #aeb4c3;
+    text-align: center;
+}
+.float-right{
+    float: right!important;
+}
+.report-box-table thead th,tbody td{
+    padding: 8px 15px;
+}
+.report-box-table thead th,.report-box-table tbody td{
+    border:none;
+    border-bottom: none!important;
+}
+.report-box-table tbody  tr{
+    border:1px solid #c3c5cd;
+}
+.btn-link{
+    text-decoration: none;
+}
+.create-project-list li a{
+    background-image: none!important;
+}
+.grey-create-project{
+    padding-left: 50px;
+    padding-right: 50px;
+}
+._grey-create-project{
+    display: unset;
+}
+/* a.nav-link {
+    font-family: 'AvertaPE-Regular';
+    font-size: 16px!important;
+    color: #6A819C!important;
+    font-weight: normal!important;
+    border-bottom: 3px solid transparent!important;
+} */
+ul.nav.nav-tabs li.active a {
+    border: none!important;
+    background: #EEF1F6;
+    border-bottom: 3px solid #3366CC!important;
+}
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    margin: 0; 
+}
+.row-1 {
+    display: inline-block;
+    width: 100%;
+}
+label.control-label {
+    font-style: normal;
+    color: #7082A9;
+    margin-bottom: 0px;
+    text-transform: capitalize;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: normal;
+    display: inline-block;
+    font-family: 'Averta-Semibold'!important;
+}
+.add-more-link{
+	color:blue!important;
+}
+
+.full-page .col-md-12 {
+    padding: 0px 15px;
+    background: #FCFCFC;
+}
+.row-1 {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-wrap: nowrap;
+}
+p.net_worth {
+    font-style: normal;
+    color: #7082A9;
+    margin-bottom: 0px;
+    text-transform: capitalize;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 16px;
+    display: inline-block;
+    width: 100%;
+    text-align: left;
+    margin-top: 30px;
+    font-family: 'Averta-Semibold'
+}
+select.form-select {
+    font-family: 'AvertaPE-Regular';
+    font-size: 15px;
+    padding: 5px 15px;
+    margin: 0 15px;
+    border: 1px solid #C4C4C4;
+    border-radius: 2px;
+}
+thead {
+    height: 50px;
+    background-color: rgba(51, 102, 204, 0.06);
+    color: #7D879C;
+    text-align: center;
+}
+thead th {
+    text-align: center;
+    font-weight: 600;
+    font-family: 'AvertaPE-Regular';
+    font-size: 14px;
+    vertical-align: middle!important;
+    padding: 10px 12px 10px 12px!important;
+    border: 1px solid #5B5B5B;
+    border-bottom: 1px solid #5B5B5B!important  ;
+}
+.form-control{
+    text-align: center;
+}
+table.table {
+    margin-top: 20px;
+    border: 1px solid #5B5B5B;
+    border-radius: 25px!important;
+} 
+.tab-content {
+    background: transparent;
+    margin-top: 35px;
+}
+td {
+    border: 1px solid #5B5B5B;
+    font-family: 'AvertaPE-Regular';
+    text-align: center;
+}
+.ctcsr .form-control {
+    height: 40px;
+    text-align: left;
+    display: block;
+    width: 130px;
+    background: #F7F7F7;
+    border: 1px solid #C4C4C4;
+    border-radius: 5px;
+    font-family: 'AvertaPE-Regular';
+    color: #C4C4C4;
+    line-height: 1.2;
+    margin-bottom: 0.5em;
+}
+.doccsr .form-control {
+    color: black;
+    background: white;
+}
+.yn_2 {
+    padding-right: 50px;
+    margin-bottom: 30px;
+}
+.uspent_csr span {
+    display: inline-block;
+    width: 100%;
+    margin-top: 5px;
+    font-size: 16px;
+    color: #000;
+    font-family: 'AvertaPE-Regular';
+}
+.ctcsr label.control-label {
+    display: inline-block;
+    width: 100%;
+    text-align: left;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    line-height: 1.2;
+}
+strong {
+    color: #000;
+}
+p.net_profit {
+    text-align: left;
+    font-size: 14px;
+    font-family: 'AvertaPE-Regular';
+    color: #000;
+}
+table.table.profit {
+    margin-top: 15px;
+}
+table.table.profit tr th:nth-child(3){
+    width: 200px;
+}
+table.table.profit tr th:nth-child(1){
+    width: 80px;
+}
+table.table.profit tr, table.table.profit th{
+    text-align: center;
+    vertical-align: middle;
+}
+table.table.profit>thead>tr>th{
+    text-align: center;
+    vertical-align: baseline !important;
+}
+th.fy {
+    text-align: center;
+    background-color: rgba(51, 102, 204, 0.06);
+    border: 1px solid #5B5B5B;
+    color: #7D879C!important;
+    width: 125px;
+}
+th.fy select.form-select{
+    padding: 2px 15px;
+    font-size: 14px;
+    margin-top: 10px;
+}
+th {
+    text-align: center;
+    border: 1px solid;
+    font-family: 'AvertaPE-Regular';
+}
+.table.npfy td {
+    vertical-align: middle;
+}
+.table.npfy {
+    margin-bottom: 0;
+}
+.yn {
+    display: flex;
+    width: 100%;
+    text-align: left;
+    align-items: center;
+    gap:20px;
+}
+.yn div{
+    display: flex;
+}
+.yn input[type="radio"] {
+    margin: 0;
+}
+#no {
+    margin-left: 30px;
+}
+.yn label {
+    margin: 0 6px;
+}
+.add-button-project{
+    display: flex;
+    gap: 20px;
+    margin: 10px 0;
+}
+.add-button-project a.btn.addmore{
+   padding: 0;
+   font-family: "Open Sans";
+}
+.csrpolicy h2 {
+    font-family: 'AvertaPE-Regular';
+    color: #000;
+    font-size: 14px;
+    margin-bottom: 15px;
+    line-height: normal;
+}
+.csrpolicy {
+    display: inline-block;
+    width: 100%;
+    margin-top: 15px;
+}
+.csrpolicy .col-sm-4 {
+    padding: 0;
+}
+input.form-control.link-pol {
+    width: 400px;
+    color: #000;
+}
+.turnover input.form-control {
+    padding: 1px;
+    height: auto;
+    margin-bottom: 0;
+}
+.turnover .table {
+    margin-top: 0!important;
+}
+.upload {
+    position: absolute;
+    width: 180px;
+    top: auto!important;
+    opacity: 0;
+}
+.ctcsr img {
+    display: block;
+    height: 40px;
+    margin-bottom: 10px;
+}
+.board_resol {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+}
+.preceding label {
+    font-size: 14px;
+    font-family: 'AvertaPE-Regular'!important;
+}
+.preceding .yn {
+    margin-top: 15px;
+    margin-left: -7px;
+}
+select option{
+    text-align: left;
+}
+.avg-profit-box input{
+    width:auto;
+}
+.table.caclulator tr td:nth-child(2) {
+    text-align: left;
+}
+.caclulator td {
+    vertical-align: middle!important;
+    color: #000;
+}
+.custom-width-calculator tr td:nth-child(4){
+    width: 100px;
+}
+.custom-width-calculator tr td:nth-child(5){
+    width: 150px;
+}
+.table.caclulator tr td:nth-child(3) {
+    width: 150px;
+    color: #C4C4C4!important;
+}
+a.cancelBtn,.saveBtn {
+    height: 50px;
+    width: 300px;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: 'Averta-Semibold';
+}
+.saveBtn {
+    margin-left: 30px;
+}
+.doccsr {
+    display: inline-block;
+    width: 100%;
+}
+.doccsr .form-control {
+    width: 100%;
+}
+.doccsr .w-276 {
+    width: 276px;
+}
+.doccsr .row {
+    display: flex;
+    align-items: flex-end;
+    flex-wrap: wrap;
+}
+.btn-theme{
+    border: 1px solid #3366CC;
+    color: #3366CC;
+    text-decoration: none;
+}
+.doccsr label.control-label {
+    font-size: 15px;
+    color: #000;
+    margin-bottom: 10px;
+}
+a.btn.addmore {
+    background: transparent;
+    font-family: 'Averta-Semibold';
+    font-size: 18px;
+    line-height: 19px;
+    letter-spacing: 0.02em;
+    color: #1F7BE7!important;
+    text-align: left;
+}
+.reportcreate h2 {
+    font-size: 22px;
+    text-align: center;
+    font-family: 'AvertaPE-Regular';
+    font-weight: 800;
+    letter-spacing: 0.02em;
+    color: #7D879C;
+    line-height: 30px;
+    margin-bottom: 50px;
+}
+.reportcreate {
+    padding: 50px;
+}
+.brief_report {
+    padding: 50px 80px 10px;
+    background: #fff;
+}
+.brief_report p {
+    font-family: 'AvertaPE-Regular';
+    color: #000;
+    font-size: 16px;
+    margin-bottom: 10px;
+    line-height: 20px;
+}
+.reportcreate p label {
+    display: block;
+    width: 100%;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0.02em;
+    color: #000;
+    font-family: 'AvertaPE-Regular'!important;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+.write_report {
+    margin-top: 20px;
+    display: block;
+}
+.write_report textarea {
+    width: 100%;
+    height: 265px;
+    background: white;
+    border: 1px solid #C4C4C4;
+    border-radius: 5px;
+    font-family: 'AvertaPE-Regular';
+    color: #000;
+    font-size: 16px;
+    margin-bottom: 10px;
+    line-height: 19px;
+    padding: 12px;
+}  
+a.csr_policy {
+    font-family: 'AvertaPE-Regular';
+    color: #000;
+    font-size: 16px;
+    margin-bottom: 10px;
+    line-height: 19px;
+    margin-top: 15px;
+    display: inline-block;
+    text-decoration: underline;
+} 
+.comitee_members {
+    display: inline-block;
+    width: 100%;
+    margin-top: 25px;
+}
+ul.member_name {
+    display: inline-block;
+    width: 100%;
+    margin-top: 10px;
+}
+ul.member_name li {
+    font-family: 'AvertaPE-Regular';
+    color: #000;
+    font-size: 15px;
+    margin-bottom: 15px;
+}
+.avg_profit thead {
+    background: transparent;
+    height: auto;
+}
+.avg_profit thead th {
+    text-align: left;
+    color: #000;
+    font-size: 16px;
+    line-height: 19px;
+    border: none!important;
+    padding-left: 0px!important;
+    padding-right: 0px!important;
+}
+.avg_profit table.table {
+    margin-top: 5px;
+    border: none!important;
+    border-radius: 0!important;
+}
+.avg_profit tbody td {
+    border: none!important;
+    padding: 0!important;
+    vertical-align: middle!important;
+    color: #000;
+    font-size: 13px;
+}
+.avg_profit tbody td span {
+    color: #7D879C;
+    font-weight: 600;
+}
+.avg_profit tbody td input.form-control {
+    text-align: left;
+    font-size: 13px;
+    color: #000;
+    font-weight: 600;
+}
+.financial_year {
+    padding: 0px 50px 30px;
+    background: #fff;
+    display: inline-block;
+    width: 100%;
+}
+.financial_year td {
+    width: 200px;
+    text-align: center;
+    vertical-align: middle!important;
+}
+.financial_year th{
+    vertical-align: middle!important;
+}
+a.btn.addmore span {
+    font-size: 25px;
+    line-height: normal;
+    position: relative;
+    top: 1px;
+}
+.financial_year table.table.profit {
+    margin-top: 40px;
+}
+.note p {
+    color: #000;
+    font-family: 'AvertaPE-Regular';
+    line-height: normal;
+    font-size: 15px;
+}
+.line_tru {
+    text-decoration: line-through;
+}
+.reasons {
+    margin-top: 15px;
+}
+.reasons textarea {
+    width: 90%;
+    background: #FFFFFF;
+    border: 1px solid #C4C4C4;
+    border-radius: 2px;
+    height: 80px;
+    color: #000;
+    font-family: 'AvertaPE-Regular';
+    font-size: 16px;
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.additional_information {
+    padding: 50px 80px 50px;
+    background: #fff;
+    margin-top: 50px;
+}
+.budget-text-display,.expenditure-text-display{
+    text-decoration: underline;
+}
+.pegtain input{
+    width: auto;
+    float: left;
+}
+.pegtain1 input{
+    width: 90%;
+}
+.pegtain label{
+    padding-right: 10px;
+}
+label.control-label-closing {
+    color: #000;
+    margin-bottom: 10px;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: normal;
+    display: inline-block;
+    font-family: 'Averta-Semibold'!important;
+}
+.additional_information h2{
+    color: #000;
+    text-align: left;
+    margin-bottom: 35px;
+}
+.additional_information p.case_stu {
+    font-size: 18px;
+    font-weight: 600;
+    font-family: 'AvertaPE-Regular';
+    color: #000;
+    margin-bottom: 10px;
+    margin-bottom: 15px;
+}
+.additional_information p {
+    font-size: 15px;
+    font-family: 'AvertaPE-Regular';
+    color: #000;
+    display: inline-block;
+    width: 100%;
+    line-height: 18px;
+}
+.testimonails .row {
+    margin-bottom: 20px;
+}
+
+.write_add_info input {
+    width: 100%;
+    background: white;
+    border: 1px solid #C4C4C4;
+    border-radius: 5px;
+    font-family: 'AvertaPE-Regular';
+    color: #000;
+    font-size: 16px;
+    margin-bottom: 10px;
+    line-height: 19px;
+    padding: 25px;
+    text-align: left;
+    margin-bottom: 25px;
+}
+.write_add_info textarea {
+    padding: 25px;
+    height: 200px;
+    margin-bottom: 0px;
+}
+p.charac {
+    margin-bottom: 20px;
+    margin-top: 4px;
+    padding: 0 10px;
+}
+.write_add_info .conclussion textarea {
+    height: 120px;
+}
+.upload_imgs img:last-child {
+    margin-right: 0;
+}
+.upload_imgs img {
+    margin-right: 15px;
+}
+.additional_information.SDGs img {
+    margin-bottom: 10px;
+    filter: grayscale(1);
+    margin-top: 10px;
+}
+.additional_information.testimonails input {
+    width: 170px;
+    display: inline-block;
+    margin-right: 15px;
+}
+.testimonails p {
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+#Committee_Details input,#Committee_Details select{
+    font-size: 13px;
+}
+.error-span{
+    float: inline-start;
+    color: red;
+    font-size: 12px;
+}
+#Committee_Details thead th {
+    padding: 5px 3px 3px 0px!important;
+}
+.testimonails textarea {
+    width: 100%;
+    background: white;
+    border: 1px solid #C4C4C4;
+    border-radius: 3px;
+    height: 100px;
+    padding: 10px;
+    color: #000;
+    font-family: 'AvertaPE-Regular';
+    line-height: normal;
+}
+a.draftbtn {
+    background: #FFFFFF;
+    border: 1px solid #3366CC;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #3366CC;
+    height: 50px;
+    width: 300px;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: 'Averta-Semibold';
+}
+.save_btns .cancelBtn {
+    border: 1px solid #666666;
+    color: #666666;
+    margin-right: 30px;
+}
+.save_btns {
+    background: #fff;
+    display: inline-block;
+    width: 100%;
+    padding-top: 30px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.reasons p {
+    display: inline-block;
+    width: 100%;
+    font-family: 'AvertaPE-Regular';
+    color: #000;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+#fyendreport {
+    display: inline-block;
+    width: 100%;
+    padding: 0 115px 50px;
+}
+.stepwizard-step{
+    float: none;
+}
+.stepwizard-step a {
+    background: transparent;
+    border: 0;
+    width: auto;
+    font-family: 'AvertaPE-Regular';
+    font-size: 15px!important;
+    background-color: transparent!important;
+    border-color: transparent;
+}
+.stepwizard-step a:hover,
+.btn-primary:active,.btn-primary.focus,
+ .btn-primary:focus{
+    color:#3366cc;
+}
+.stepwizard-step span.step-count{
+    font-size: 16px;
+    line-height: 35px;
+    font-weight: 600;
+}
+.ongoing_projects input,.ongoing_projects select{
+    color:black!important;
+    background: white!important;
+}
+.thruout_year {
+    display: inline-block;
+    width: 100%;
+    background: #fff;
+    padding: 50px 40px;
+    margin-top: 35px;
+    border-radius: 5px;
+}
+#fy-step-1-btn p {
+    font-size: 14px;
+    line-height: 20px;
+    font-family: 'AvertaPE-Regular';
+    color: #000;  
+}
+.thruout_year p {
+    display: inline-block;
+    width: 100%;
+    font-family: 'AvertaPE-Regular';
+    font-size: 16px;
+    color: #000;
+    line-height: normal;
+}
+.thruout_year p label {
+    font-weight: 600;
+    font-family: 'AvertaPE-Regular'!important;
+    font-size: 16px;
+    color: #000;
+    margin-top: 20px;
+}
+.pro_rep ul{
+    list-style: disc!important;
+    padding-left: 30px;
+}
+.pro_rep ul {
+    list-style: disc!important;
+    padding-left: 30px;
+    margin-top: 10px;
+    font-family: 'AvertaPE-Regular';
+    color: #000;
+    font-size: 16px;
+}
+.pro_rep li {
+    list-style: disc!important;
+    margin-bottom: 10px;
+}
+
+.thruout_year table.table {
+    margin-top: 12px;
+}
+.yn label {
+    margin: 0 6px;
+    font-family: 'AvertaPE-Regular'!important;
+    font-size: 14px;
+    color: #000;
+}
+.thruout_year th {
+    width: 200px;
+    text-align: center;
+}
+.previous_year input.form-control {
+    width: 130px;
+    text-align: center;
+}
+.csrpolicy table td {
+    text-align: center;
+}
+.previous_year {
+    display: inline-block;
+    width: 100%;
+    margin-top: 35px;
+    background-color: #fff;
+    padding: 50px 40px;
+    border-radius: 5px;
+}
+.csrpolicy .row-1 {
+    margin-bottom: 35px;
+}
+.ongoing_projects {
+    display: inline-block;
+    width: 100%;
+}
+.amount_spent {
+    padding: 0;
+}
+.amount_spent label.control-label {
+    font-size: 16px;
+    color: #000;
+}
+.kyc-title h2 {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 35px;
+    text-align: center;
+    color: #7d879c;
+    font-family: 'Averta-Semibold'!important;
+}
+.amount_spent .ctcsr span {
+    /* height: 40px;
+    padding: 10px;
+        margin-bottom: 10px; */
+    font-family: 'AvertaPE-Regular';
+     display: inline-block;
+    color: #000;
+}
+.amount_spent .form-group {
+    padding: 0;
+}
+.unspent_amount {
+    display: inline-block;
+    width: 100%;
+    background: #fff;
+    padding: 50px;
+    margin-top: 35px;
+    border-radius: 5px;
+}
+.uspent_csr thead th{
+    width:125px;
+}
+.uspent_csr .form-control{
+    width:auto;
+    margin: 0 auto;
+}
+.uspent_csr td {
+    vertical-align: middle!important;
+    text-align: center;
+}
+.uspent_csr p label {
+    font-weight: 600;
+    font-family: 'AvertaPE-Regular'!important;
+    font-size: 16px;
+    color: #000;
+    margin-bottom: 10px;
+}
+.uspent_csr textarea {
+    width: 80%!important;
+    margin-left: 0!important;
+    text-align: left;
+    height: 70px;
+}
+.uspent_csr {
+    margin-bottom: 10px;
+    display: inline-block;
+    width: 100%;
+}
+.new_project .col-sm-6 {
+    padding: 0;
+}
+.new_project {
+    background: #fff;
+    display: inline-block;
+    width: 100%;
+    margin-top: 35px;
+    border-radius: 5px;
+    padding: 50px;
+}
+.capital_assets input{
+    width:100%!important;
+}
+.capital_assets th.fy{
+width:175px;
+}
+.contributor_details {
+    margin-bottom: 35px;
+}
+.contributor_details label.control-label {
+    color: #000;
+    margin-bottom: 10px;
+}
+.contributor_details p {
+    line-height: normal;
+}
+.contributor_details ul {
+    display: flex;
+    width: 100%;
+}
+.contributor_details ul li{
+    width: 50%;
+}
+.contributor_details ul li {
+    width: 50%;
+    color: #000;
+    font-size: 16px;
+    font-family: 'AvertaPE-Regular';
+}
+#no, #yes {
+    width: auto!important;
+}
+.yn_1 p {
+    margin-bottom: 10px;
+}
+.csrreports th, .csrreports tbody, .csrreports th, 
+.csrreports th, .csrreports tbody, .csrreports table {
+    border: none!important;
+}
+.csrreports td{
+    border: 1px solid #C4C4C4;
+}
+td a {
+    text-decoration-line: underline;
+    color: #3366CC;
+}
+.csrreports tbody tr td {
+    padding: 15px 10px;
+    font-size: 15px;
+}
+.csrreports tbody tr th {
+    font-size: 16px;
+    opacity: 0.3;
+}
+.pro_rep {
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.pro_rep p {
+    margin-top: 10px;
+}
+.pro_rep .col-md-4 {
+    text-align: center;
+}
+.boxes {
+    background: #FFFFFF;
+    border: 1px solid #3366CC;
+    border-radius: 5px;
+    text-align: center;
+    padding:30px 50px;
+    display: inline-block;
+    margin: 0 auto;
+    margin-top: 25px;
+}
+.boxes p {
+    margin-top: 0;
+    margin-bottom: 10px;
+    color:#3366CC;
+}
+.boxes span {
+    color: #3366CC;
+    position: absolute;
+    bottom: 35px;
+    width: 100%;
+    left: 0;
+}
+.boxes {
+    background: #FFFFFF;
+    border: 1px solid #3366CC;
+    border-radius: 5px;
+    text-align: center;
+    padding: 30px 50px;
+    display: inline-block;
+    margin: 0 auto;
+    margin-top: 25px;
+    width: 250px;
+    min-height: 150px;
+    position: relative;
+}
+.pro_rep_pro .progress {
+    height: 20px;
+}
+.pro_rep_pro .progress-bar {
+    background-color: #3366CC !important;
+}
+span.popOver {
+    font-family: 'AvertaPE-Regular';
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+}
+tr.pro th {
+    border: none;
+    background: #fff;
+    color: #000;
+    font-size: 16px;
+}
+.Activity h2 {
+    text-align: left;
+    font-weight: normal;
+    color: #5B5B5B;
+    font-size: 18px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+.Activity {
+    padding: 25px 0;
+}
+.pro_rep .Activity .col-md-4 {
+    text-align: left;
+}
+.Activity h3 {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 19px;
+    color: #ABABAB;
+    font-family: 'AvertaPE-Regular';
+    margin-bottom: 15px;
+}
+.Activity p {
+    margin-top: 0;
+}
+.Activity hr {
+    border-top: 2px solid #F4F4F4;
+    margin-bottom: 40px;
+    margin-top: 40px;
+}
+.pro_rep ol {
+    padding-left: 20px;
+}
+.pro_rep ol li {
+    list-style: decimal!important;
+    text-align: left;
+}
+.evalu_plan td{  
+    vertical-align: middle!important;
+    padding: 30px 20px!important;
+}
+path.highcharts-point.highcharts-color-1 {
+    fill: #3366CC;
+}
+path.highcharts-point.highcharts-color-0{
+    fill:#3366CC4D;
+}
+text.highcharts-title,text.highcharts-credits,.highcharts-button-normal {
+    display: none;
+}
+.boxes_2 input {
+    background: #f7f7f7ad;
+    border: 1px solid #c4c4c454;
+    border-radius: 3px;
+    height: 40px;
+    margin-top: 10px;
+    display: inline-block;
+    text-align: left;
+    margin-bottom: 30px;
+}
+.pro_rep.total {
+    padding: 40px 40px 0 40px;
+    margin-bottom: 0;
+}
+.boxes_2 label.control-label {
+    font-size: 16px;
+}
+.utilisation td, .utilisation th {
+    padding: 15px!important;
+}
+a.utili_cert {
+    background: #FFFFFF;
+    border: 1px solid #3366CC;
+    border-radius: 3px;
+    display: inline-block;
+    color: #3366CC;
+    font-size: 17px;
+    font-family: 'AvertaPE-Regular';
+    padding: 15px 30px;
+}
+/* KRISHNA */
+._csrcommitee{
+    border-collapse: separate;
+    border-spacing: 10px;
+}
+._csrcommitee thead th{
+    text-align: left;
+}
+._csrcommitee tr th, ._csrcommitee tr td{
+   padding: 0;
+}
+.annual-action-plan-edit {
+    width: 1366px; /* Set fixed width for the entire table */
+    table-layout: fixed; /* Ensures columns keep their width */
+    border-collapse: collapse;
+}
+.annual-action-plan-edit .select2-container{
+    width: 100% !important;
+}
+.annual-action-plan-edit th,
+.annual-action-plan-edit td {
+    width: 150px; /* Set fixed width for each cell */
+    min-width: 150px; /* Optional: ensures minimum width */
+    text-align: center;
+}
+._outerTable {
+    width: 100%;
+    overflow-x: auto; /* Enable horizontal scrolling on smaller screens */
+}
+.textbox{
+    margin-left: 10px;
+    border: 1px solid #c4c4c4;
+    padding: 3px;
+    width: 78px;
+}
+._create-project-list{
+    list-style: none;
+}
+.profile-listing-top ul{
+    list-style: none;
+}
+select.form-select.fyreport{
+    padding: 7px 7px !important;
+}
+.table>tbody>tr>td, .table>tbody>tr>th, .table>tfoot>tr>td, .table>tfoot>tr>th, .table>thead>tr>td, .table>thead>tr>th {
+    vertical-align: middle;
+}
+@media(max-width:767px){
+    #fyendreport {
+        display: inline-block;
+        width: 100%;
+        padding: 0 0px 50px;
+    }
+    .thruout_year,.previous_year,.unspent_amount{
+        padding: 50px 15px;
+    }
+}

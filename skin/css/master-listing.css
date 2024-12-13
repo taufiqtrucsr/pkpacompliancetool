@@ -1,0 +1,158 @@
+/* css master contact wrap */
+.wrap-master-listing{
+    padding: 1rem;
+}
+.master-child-list {
+    padding-bottom: 1rem;
+    border-bottom: 1.8px solid;
+}
+.master-btn a, .master-btn button {
+    background-color: transparent;
+    text-decoration: none;
+    color: #3366cc;
+    height: 42px;
+    border: 1.3px solid #3366cc;
+    display: block;
+    border-radius: 3px;
+    text-align: center;
+    line-height: 35px;
+    font-weight: 400;
+    min-width: 170px;
+}
+.master-btn a i, .master-btn button i{
+    font-size: 18px;
+}
+.ftt-400{
+    font-weight: 400;
+}
+.img-master-list img{
+    width: 90px;
+    height: 90px;
+    object-fit: cover;
+}
+.master-ull ul{
+        margin: 0px;
+        padding: 0px;
+        list-style-type: none;
+    margin-top: -8px;
+}
+.master-ull ul li{
+    padding-left: 10px;
+    line-height: 28px;
+}
+.master-anc a{
+    display: block;
+        min-width: 130px;
+        text-align: left;
+    
+}
+.master-anc a:nth-child(1){
+    color:#4b78d2;
+}
+.master-anc a:nth-child(2){
+    color:#ff6666;
+}
+/* master contract 2 */
+.wrap-m-btns button:nth-child(1){
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+    border-color:#c4c4c4;
+    color:#000;
+    height: 42px;
+}
+.wrap-m-btns button:hover,
+.wrap-m-btns button:active,
+.wrap-m-btns button:focus,
+.wrap-m-btns button:focus-within{
+    box-shadow: none;
+    background-color:#3366cc ;
+    color:#fff;
+}
+.wrap-m-btns button:nth-child(2){
+    background-color: #3366cc;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+    border-color: #3366cc;
+    height: 42px;
+}
+.select-wrap-master select{
+    border-color: #c4c4c4;
+    height: 42px;
+    color:#000;
+}
+.upload-master i{
+    font-size: 25px;
+}
+.mt-66{
+    margin-top: 3.6rem!important;
+}
+/* buttons */
+
+.btn-theme-55{
+    min-width: 220px;
+    height: 45px;
+    border:1.5px solid transparent;
+    border-radius: 5px;
+    background-color: transparent;
+    text-align: center;
+}
+.border-btn{
+    border-color:#3366cc;
+    color: #3366cc;
+}
+.fill-btn{
+    background-color: #3366cc;
+    border-color:#3366cc;
+    color:#fff;
+}
+.btn-error{
+    background-color: #ff6666;
+    color:#fff;
+}
+
+.btn-bold-blue{
+    border-color: #3366cc;
+    color:#3366cc;
+    background-color: transparent;
+    font-weight: bold;
+}
+.btn-bold{
+    border-color:#666666;
+    color:#666666;
+    font-weight: bold;
+}
+.ql-container{
+    max-height: 20%;
+}
+.theme-btns.mt-4{
+    margin-top: 5rem!important;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+@media (max-width: 991px){
+    .mg-5-top{
+        margin-top: 18px;
+    }
+    .mt-66 {
+        margin-top: 1.6rem!important;
+    }
+    .master-ull ul li{
+        padding-left: 0px;
+    }
+}
+@media (max-width: 576px){
+    .img-master-list img{
+        margin-bottom: 18px;
+    }
+}
+@media (max-width: 767px){
+    .img-master-list img{
+        margin-bottom: 18px;
+    }
+    .mt-66 {
+        margin-top: 3.6rem!important;
+    }
+}
+
