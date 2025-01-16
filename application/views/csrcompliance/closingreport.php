@@ -449,14 +449,16 @@ defined('BASEPATH') or exit('No direct script access allowed');
                               <label class="control-label-closing">4. (c) (ii) If yes, Whether the same has been
                                  disclosed in the Board Report *:</label>
                               <div class="yn">
-                                 <input class="form-check-input" type="radio" name="impact_assessment_board"
-                                    <?= (isset($csr2->is_impact_assessment_disclosed_in_board_report) && $csr2->is_impact_assessment_disclosed_in_board_report == 1) ? 'checked' : '' ?>
-                                    value="1">
-                                 <label>Yes</label>
-                                 <input class="form-check-input" type="radio" name="impact_assessment_board"
-                                    <?= (isset($csr2->is_impact_assessment_disclosed_in_board_report) && $csr2->is_impact_assessment_disclosed_in_board_report == 2) ? 'checked' : '' ?>
-                                    value="2">
-                                 <label>No</label>
+                                 <div><input class="form-check-input" type="radio" name="impact_assessment_board"
+                                       <?= (isset($csr2->is_impact_assessment_disclosed_in_board_report) && $csr2->is_impact_assessment_disclosed_in_board_report == 1) ? 'checked' : '' ?>
+                                       value="1">
+                                    <label>Yes</label>
+                                 </div>
+                                 <div><input class="form-check-input" type="radio" name="impact_assessment_board"
+                                       <?= (isset($csr2->is_impact_assessment_disclosed_in_board_report) && $csr2->is_impact_assessment_disclosed_in_board_report == 2) ? 'checked' : '' ?>
+                                       value="2">
+                                    <label>No</label>
+                                 </div>
                               </div>
                            </div>
                         </div>
@@ -477,12 +479,15 @@ defined('BASEPATH') or exit('No direct script access allowed');
                                  off in pursuance of sub-rule (3) of Rule 7 of Companies (CSR Policy) Rules,2014 *
                                  :</label>
                               <div class="yn">
-                                 <input class="form-check-input check_is_committee_constituted" type="radio"
-                                    <?= ($obligation->is_CSR_setoff_available == 1) ? "checked" : "" ?> value="1">
-                                 <label>Yes</label>
-                                 <input class="form-check-input check_is_committee_constituted" type="radio"
-                                    <?= ($obligation->is_CSR_setoff_available == 2) ? "checked" : "" ?> value="2">
-                                 <label>No</label>
+                                 <div> <input class="form-check-input check_is_committee_constituted" type="radio"
+                                       <?= ($obligation->is_CSR_setoff_available == 1) ? "checked" : "" ?> value="1">
+                                    <label>Yes</label>
+                                 </div>
+                                 <div>
+                                    <input class="form-check-input check_is_committee_constituted" type="radio"
+                                       <?= ($obligation->is_CSR_setoff_available == 2) ? "checked" : "" ?> value="2">
+                                    <label>No</label>
+                                 </div>
                               </div>
                            </div>
                         </div>
@@ -552,12 +557,16 @@ defined('BASEPATH') or exit('No direct script access allowed');
                                        <label class="control-label-closing">5. (a) Whether the company has completed the
                                           period of three financial years since its incorporation *:</label>
                                        <div class="yn">
-                                          <input class="form-check-input check_is_committee_constituted" type="radio"
-                                             <?= ($entity->companyHasCompletedYears >= 3) ? 'checked' : '' ?> value="1">
-                                          <label>Yes</label>
-                                          <input class="form-check-input check_is_committee_constituted" type="radio"
-                                             <?= (!$entity->companyHasCompletedYears >= 3) ? 'checked' : '' ?> value="2">
-                                          <label>No</label>
+                                          <div><input class="form-check-input check_is_committee_constituted"
+                                                type="radio" <?= ($entity->companyHasCompletedYears >= 3) ? 'checked' : '' ?> value="1">
+                                             <label>Yes</label>
+                                          </div>
+                                          <div>
+                                             <input class="form-check-input check_is_committee_constituted" type="radio"
+                                                <?= (!$entity->companyHasCompletedYears >= 3) ? 'checked' : '' ?>
+                                                value="2">
+                                             <label>No</label>
+                                          </div>
                                        </div>
                                     </div>
                                  </div>
@@ -702,14 +711,17 @@ defined('BASEPATH') or exit('No direct script access allowed');
                               <label class="control-label-closing">7. (a) Whether CSR amount for the financial year has
                                  been spent: *:</label>
                               <div class="yn">
-                                 <input class="form-check-input check_is_committee_constituted"
-                                    <?= (count($director_report_project_ongoing) > 0 || count($director_report_project_other) > 0) ? 'checked' : '' ?> type="radio"
-                                    value="1">
-                                 <label>Yes</label>
-                                 <input class="form-check-input check_is_committee_constituted"
-                                    <?= (!count($director_report_project_ongoing) > 0 && !count($director_report_project_other) > 0) ? 'checked' : '' ?> type="radio"
-                                    value="2">
-                                 <label>No</label>
+                                 <div>
+                                    <input class="form-check-input check_is_committee_constituted"
+                                       <?= (count($director_report_project_ongoing) > 0 || count($director_report_project_other) > 0) ? 'checked' : '' ?> type="radio"
+                                       value="1">
+                                    <label>Yes</label>
+                                 </div>
+                                 <div><input class="form-check-input check_is_committee_constituted"
+                                       <?= (!count($director_report_project_ongoing) > 0 && !count($director_report_project_other) > 0) ? 'checked' : '' ?> type="radio"
+                                       value="2">
+                                    <label>No</label>
+                                 </div>
                               </div>
                            </div>
                         </div>
@@ -718,15 +730,19 @@ defined('BASEPATH') or exit('No direct script access allowed');
                               <label class="control-label-closing">7. (b) If Yes, CSR amount has been spent
                                  against:</label>
                               <div class="yn">
-                                 <input class="form-check-input check_is_committee_constituted" type="radio"
-                                    <?= (count($director_report_project_ongoing) > 0 && !count($director_report_project_other) > 0) ? 'checked' : '' ?> value="1">
-                                 <label>Ongoing projects</label>
-                                 <input class="form-check-input check_is_committee_constituted" type="radio"
-                                    <?= (!count($director_report_project_ongoing) > 0 && count($director_report_project_other) > 0) ? 'checked' : '' ?> value="2">
-                                 <label>Other than Ongoing projects</label>
-                                 <input class="form-check-input check_is_committee_constituted" type="radio"
-                                    <?= (count($director_report_project_ongoing) > 0 && count($director_report_project_other) > 0) ? 'checked' : '' ?> value="3">
-                                 <label>Both (Ongoing and other than ongoing projects)</label>
+                                 <div><input class="form-check-input check_is_committee_constituted" type="radio"
+                                       <?= (count($director_report_project_ongoing) > 0 && !count($director_report_project_other) > 0) ? 'checked' : '' ?> value="1">
+                                    <label>Ongoing projects</label>
+                                 </div>
+                                 <div><input class="form-check-input check_is_committee_constituted" type="radio"
+                                       <?= (!count($director_report_project_ongoing) > 0 && count($director_report_project_other) > 0) ? 'checked' : '' ?> value="2">
+                                    <label>Other than Ongoing projects</label>
+                                 </div>
+                                 <div>
+                                    <input class="form-check-input check_is_committee_constituted" type="radio"
+                                       <?= (count($director_report_project_ongoing) > 0 && count($director_report_project_other) > 0) ? 'checked' : '' ?> value="3">
+                                    <label>Both (Ongoing and other than ongoing projects)</label>
+                                 </div>
                               </div>
                            </div>
                         </div>
@@ -1176,12 +1192,15 @@ defined('BASEPATH') or exit('No direct script access allowed');
                                  financial years (financial year ending after 22 January 2021) has been spent in the
                                  financial year *:</label>
                               <div class="yn">
-                                 <input class="form-check-input check_is_committee_constituted" type="radio"
-                                    <?= ($obligation->is_unspent_for_preceeding_3_years_after_22_Jan_21 == 1) ? 'checked' : '' ?> value="1">
-                                 <label>Yes</label>
-                                 <input class="form-check-input check_is_committee_constituted" type="radio"
-                                    <?= ($obligation->is_unspent_for_preceeding_3_years_after_22_Jan_21 == 2) ? 'checked' : '' ?> value="2">
-                                 <label>No</label>
+                                 <div><input class="form-check-input check_is_committee_constituted" type="radio"
+                                       <?= ($obligation->is_unspent_for_preceeding_3_years_after_22_Jan_21 == 1) ? 'checked' : '' ?> value="1">
+                                    <label>Yes</label>
+                                 </div>
+                                 <div>
+                                    <input class="form-check-input check_is_committee_constituted" type="radio"
+                                       <?= ($obligation->is_unspent_for_preceeding_3_years_after_22_Jan_21 == 2) ? 'checked' : '' ?> value="2">
+                                    <label>No</label>
+                                 </div>
                               </div>
                            </div>
                         </div>
@@ -1332,14 +1351,15 @@ defined('BASEPATH') or exit('No direct script access allowed');
                                  undertaken in the financial year from the Unspent amount pertaining to preceding three
                                  financial years :</label>
                               <div class="yn">
-                                 <input class="form-check-input check_is_committee_constituted" name="new_csr_project"
-                                    <?= ($obligation->is_new_csr_project == 1) ? 'checked' : '' ?> type="radio" name=""
-                                    value="1" required>
-                                 <label>Yes</label>
-                                 <input class="form-check-input check_is_committee_constituted" name="new_csr_project"
-                                    <?= ($obligation->is_new_csr_project == 2) ? 'checked' : '' ?> type="radio" name=""
-                                    value="2" required>
-                                 <label>No</label>
+                                 <div><input class="form-check-input check_is_committee_constituted"
+                                       name="new_csr_project" <?= ($obligation->is_new_csr_project == 1) ? 'checked' : '' ?> type="radio" name="" value="1" required>
+                                    <label>Yes</label>
+                                 </div>
+                                 <div>
+                                    <input class="form-check-input check_is_committee_constituted"
+                                       name="new_csr_project" <?= ($obligation->is_new_csr_project == 2) ? 'checked' : '' ?> type="radio" name="" value="2" required>
+                                    <label>No</label>
+                                 </div>
                               </div>
                            </div>
                         </div>
@@ -1352,15 +1372,20 @@ defined('BASEPATH') or exit('No direct script access allowed');
                                  <label class="control-label-closing">10. (c) (ii) If yes, nature of the new CSR
                                     Project(s) is/are:</label>
                                  <div class="yn">
-                                    <input class="form-check-input check_is_committee_constituted" type="radio"
-                                       name="new_csr_project_nature" <?= ($obligation->new_csr_project_nature == 1) ? 'checked' : '' ?> value="1">
-                                    <label>Ongoing projects</label>
-                                    <input class="form-check-input check_is_committee_constituted" type="radio"
-                                       name="new_csr_project_nature" <?= ($obligation->new_csr_project_nature == 2) ? 'checked' : '' ?> value="2">
-                                    <label>Other than Ongoing projects</label>
-                                    <input class="form-check-input check_is_committee_constituted" type="radio"
-                                       name="new_csr_project_nature" <?= ($obligation->new_csr_project_nature == 3) ? 'checked' : '' ?> value="3">
-                                    <label>Both (Ongoing and other than ongoing projects)</label>
+                                    <div>
+                                       <input class="form-check-input check_is_committee_constituted" type="radio"
+                                          name="new_csr_project_nature" <?= ($obligation->new_csr_project_nature == 1) ? 'checked' : '' ?> value="1">
+                                       <label>Ongoing projects</label>
+                                    </div>
+                                    <div><input class="form-check-input check_is_committee_constituted" type="radio"
+                                          name="new_csr_project_nature" <?= ($obligation->new_csr_project_nature == 2) ? 'checked' : '' ?> value="2">
+                                       <label>Other than Ongoing projects</label>
+                                    </div>
+                                    <div>
+                                       <input class="form-check-input check_is_committee_constituted" type="radio"
+                                          name="new_csr_project_nature" <?= ($obligation->new_csr_project_nature == 3) ? 'checked' : '' ?> value="3">
+                                       <label>Both (Ongoing and other than ongoing projects)</label>
+                                    </div>
                                  </div>
                               </div>
                            </div>
@@ -1831,14 +1856,17 @@ defined('BASEPATH') or exit('No direct script access allowed');
                         <label class="control-label-closing">11 Whether any unspent amount pertaining to FY 2014-15 to
                            FY 2019-20 has been spent in the financial year:</label>
                         <div class="yn">
-                           <input class="form-check-input check_is_committee_constituted"
-                              <?= ($obligation->is_unspent_for_pretaining_2014_15_to_2019_20 == 1) ? 'checked' : '' ?>
-                              type="radio" name="is_unspent_for_pretaining_2014_15_to_2019_20" value="1" required>
-                           <label>Yes</label>
-                           <input class="form-check-input check_is_committee_constituted"
-                              <?= ($obligation->is_unspent_for_pretaining_2014_15_to_2019_20 == 2) ? 'checked' : '' ?>
-                              type="radio" name="is_unspent_for_pretaining_2014_15_to_2019_20" value="2" required>
-                           <label>No</label>
+                           <div><input class="form-check-input check_is_committee_constituted"
+                                 <?= ($obligation->is_unspent_for_pretaining_2014_15_to_2019_20 == 1) ? 'checked' : '' ?>
+                                 type="radio" name="is_unspent_for_pretaining_2014_15_to_2019_20" value="1" required>
+                              <label>Yes</label>
+                           </div>
+                           <div>
+                              <input class="form-check-input check_is_committee_constituted"
+                                 <?= ($obligation->is_unspent_for_pretaining_2014_15_to_2019_20 == 2) ? 'checked' : '' ?>
+                                 type="radio" name="is_unspent_for_pretaining_2014_15_to_2019_20" value="2" required>
+                              <label>No</label>
+                           </div>
                         </div>
                      </div>
                   </div>
@@ -2066,14 +2094,18 @@ defined('BASEPATH') or exit('No direct script access allowed');
                         <label class="control-label-closing">12. Whether any Capital assets have been created or
                            acquired through CSR spent in the financial year *:</label>
                         <div class="yn">
-                           <input class="form-check-input check_is_committee_constituted"
-                              <?= ($obligation->is_capital_assest_created == 1) ? 'checked' : '' ?> type="radio"
-                              name="is_capital_assest_created" <?= ($obligation->is_capital_assest_created == 1) ? 'checked' : '' ?> value="1" required>
-                           <label>Yes</label>
-                           <input class="form-check-input check_is_committee_constituted"
-                              <?= ($obligation->is_capital_assest_created == 2) ? 'checked' : '' ?> type="radio"
-                              name="is_capital_assest_created" <?= ($obligation->is_capital_assest_created == 2) ? 'checked' : '' ?> value="2" required>
-                           <label>No</label>
+                           <div>
+                              <input class="form-check-input check_is_committee_constituted"
+                                 <?= ($obligation->is_capital_assest_created == 1) ? 'checked' : '' ?> type="radio"
+                                 name="is_capital_assest_created" <?= ($obligation->is_capital_assest_created == 1) ? 'checked' : '' ?> value="1" required>
+                              <label>Yes</label>
+                           </div>
+                           <div>
+                              <input class="form-check-input check_is_committee_constituted"
+                                 <?= ($obligation->is_capital_assest_created == 2) ? 'checked' : '' ?> type="radio"
+                                 name="is_capital_assest_created" <?= ($obligation->is_capital_assest_created == 2) ? 'checked' : '' ?> value="2" required>
+                              <label>No</label>
+                           </div>
                         </div>
                      </div>
                   </div>
@@ -2294,7 +2326,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
                                        <select name="sector[]" class="form-control" required>
                                           <option value="">Select Sector</option>
                                           <?php foreach ($sectors as $sec) { ?>
-                                                                        <option data-sdgs='<?= $sec->sdgs_id ?>' value="<?= $sec->sector_type ?>"><?= $sec->sector_type ?></option>
+                                                                                                         <option data-sdgs='<?= $sec->sdgs_id ?>' value="<?= $sec->sector_type ?>"><?= $sec->sector_type ?></option>
                                           <?php } ?>
                                        </select>
                                     </td>
@@ -2310,7 +2342,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
                                        <select name="location[]" class="form-control location-select-2" required>
                                           <option value="">Select Location</option>
                                           <?php foreach ($district as $dst) { ?>
-                                                                        <option value="<?= $dst->dst_name . ',' . $dst->st_name ?>"><?= $dst->dst_name . ',' . $dst->st_name ?></option>
+                                                                                                         <option value="<?= $dst->dst_name . ',' . $dst->st_name ?>"><?= $dst->dst_name . ',' . $dst->st_name ?></option>
                                           <?php } ?>
                                        </select>
                                     </td>
@@ -2355,7 +2387,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
                                        <select name="sector[]" class="form-control" required>
                                           <option value="">Select Sector</option>
                                           <?php foreach ($sectors as $sec) { ?>
-                                                                        <option data-sdgs='<?= $sec->sdgs_id ?>' value="<?= $sec->sector_type ?>"><?= $sec->sector_type ?></option>
+                                                                                                         <option data-sdgs='<?= $sec->sdgs_id ?>' value="<?= $sec->sector_type ?>"><?= $sec->sector_type ?></option>
                                           <?php } ?>
                                        </select>
                                     </td>
@@ -2371,7 +2403,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
                                        <select name="location[]" class="form-control location-select-2" required>
                                           <option value="">Select Location</option>
                                           <?php foreach ($district as $dst) { ?>
-                                                                        <option value="<?= $dst->dst_name . ',' . $dst->st_name ?>"><?= $dst->dst_name . ',' . $dst->st_name ?></option>
+                                                                                                         <option value="<?= $dst->dst_name . ',' . $dst->st_name ?>"><?= $dst->dst_name . ',' . $dst->st_name ?></option>
                                           <?php } ?>
                                        </select>
                                     </td>
@@ -2414,7 +2446,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
                                        <select name="sector[]" class="form-control" required>
                                           <option value="">Select Sector</option>
                                           <?php foreach ($sectors as $sec) { ?>
-                                                                        <option data-sdgs='<?= $sec->sdgs_id ?>' value="<?= $sec->sector_type ?>"><?= $sec->sector_type ?></option>
+                                                                                                         <option data-sdgs='<?= $sec->sdgs_id ?>' value="<?= $sec->sector_type ?>"><?= $sec->sector_type ?></option>
                                           <?php } ?>
                                        </select>
                                     </td>
@@ -2430,7 +2462,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
                                        <select name="location[]" class="form-control location-select-2" required>
                                           <option value="">Select Location</option>
                                           <?php foreach ($district as $dst) { ?>
-                                                                        <option value="<?= $dst->dst_name . ',' . $dst->st_name ?>"><?= $dst->dst_name . ',' . $dst->st_name ?></option>
+                                                                                                         <option value="<?= $dst->dst_name . ',' . $dst->st_name ?>"><?= $dst->dst_name . ',' . $dst->st_name ?></option>
                                           <?php } ?>
                                        </select>
                                     </td>

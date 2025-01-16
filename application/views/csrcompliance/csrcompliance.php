@@ -60,7 +60,7 @@ $this->load->view('common/head_common'); ?>
                     <h2>CSR Compliance</h2>
                 </div>
                 <ul class="nav nav-tabs main-tab-control">
-                    <li class="nav-item basic-tab">
+                    <li class="nav-item basic-tab active">
                         <a class="nav-link" href="#Basic_Details" data-toggle="tab" aria-expanded="true">Basic
                             Details</a>
                     </li>
